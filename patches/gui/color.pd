@@ -1,0 +1,16 @@
+#N canvas 125 102 613 321 10;
+#X obj 101 102 cnv 15 225 26 empty empty video-color 20 12 0 30 -191407
+-66577 0;
+#X obj 103 128 hsl 220 20 0 1 0 0 empty empty empty -2 -8 0 10 -258113
+-1 -1 13500 1;
+#X obj 103 149 hsl 220 20 0 1 0 0 empty empty empty -2 -8 0 10 -4034
+-1 -1 0 1;
+#X obj 103 169 hsl 220 20 0 1 0 0 empty empty empty -2 -8 0 10 -4160
+-1 -1 2000 1;
+#X obj 71 261 s \$0-color-r;
+#X obj 166 265 s \$0-color-g;
+#X obj 248 271 s \$0-color-g;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;
+#X connect 3 0 6 0;
+#X coords 0 -1 1 1 228 90 2 100 100;

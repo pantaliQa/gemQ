@@ -1,0 +1,31 @@
+#N canvas 0 0 1022 514 10;
+#X obj 228 140 image images/audioanalysi.gif;
+#X obj 117 126 vsl 11 35 0 127 0 0 empty audio_slider_60 60 0 -8 0
+8 -1 -258113 -258113 214 1;
+#X obj 136 126 vsl 11 35 0 127 0 0 empty audio_slider_170 170 -2 -8
+0 8 -1 -258113 -258113 214 1;
+#X obj 156 126 vsl 11 35 0 127 0 0 empty audio_slider_210 310 -2 -8
+0 8 -1 -258113 -258113 54 1;
+#X obj 175 126 vsl 11 35 0 127 0 0 empty audio_slider_600 600 -2 -8
+0 8 -1 -258113 -258113 27 1;
+#X obj 194 126 vsl 11 35 0 127 0 0 empty audio_slider_1kh 1kh -2 -8
+0 8 -1 -258113 -258113 54 1;
+#X obj 215 126 vsl 11 35 0 127 0 0 empty audio_slider_3kh 3kh -2 -8
+0 8 -1 -258113 -258113 134 1;
+#X obj 236 126 vsl 11 35 0 127 0 0 empty audio_slider_6kh 6kh -2 -8
+0 8 -1 -258113 -258113 348 1;
+#X obj 254 126 vsl 11 35 0 127 0 0 empty audio_slider_12kh 12kh -2
+-8 0 7 -1 -258113 -258113 375 1;
+#X obj 273 126 vsl 11 35 0 127 0 0 empty audio_slider_14kh 14kh -2
+-8 0 7 -1 -258113 -258113 375 1;
+#X obj 294 126 vsl 11 35 0 127 0 0 empty audio_slider_16kh 16kh -2
+-8 0 8 -1 -258113 -258113 375 1;
+#X obj 321 116 bng 11 250 50 0 empty audio_bass_bang B 17 6 0 10 -1
+-258113 -258113;
+#X obj 321 135 bng 11 250 50 0 empty audio_middle_bang M 17 6 0 10
+-1 -258113 -258113;
+#X obj 321 154 bng 11 250 50 0 empty audio_higth_bang H 17 6 0 10 -1
+-258113 -258113;
+#X obj 387 145 nbx 1 14 1 20 0 0 mic_volume empty Lev 0 -8 0 10 -1
+-258113 -258113 1 256;
+#X coords 0 -1 1 1 320 75 1 100 100;

@@ -1,0 +1,8 @@
+#N canvas 451 117 573 361 10;
+#X declare -lib py;
+#X obj 157 72 pyext utils loadcams;
+#X obj 295 187 import py;
+#X obj 157 123 outlet;
+#X obj 272 31 inlet;
+#X connect 0 0 2 0;
+#X connect 3 0 0 1;

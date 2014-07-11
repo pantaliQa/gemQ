@@ -1,0 +1,2 @@
+0.2: added a flag on the python script to improve thumb creation (don't redo the job you have already done!)
+0.3: now we use iem_image and not image to load thumbs and delete the warnings image objects gave
